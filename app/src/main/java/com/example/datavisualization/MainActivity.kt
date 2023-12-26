@@ -24,16 +24,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val lineChart: LineChart = findViewById(R.id.lineChart)
         val systoleEntries = generateRandomEntries(12, 110f, 140f)
         val diastoleEntries = generateRandomEntries(12, 70f, 90f)
+
         setupChart(lineChart)
+
         combinedEntries.addAll(systoleEntries)
         combinedEntries.addAll(diastoleEntries)
+
         setData(lineChart, systoleEntries, diastoleEntries)
         lineChart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener {
             override fun onValueSelected(e: Entry?, h: Highlight?) {
-                // Menampilkan informasi detail pada titik yang disentuh
                 if (e != null) {
                     val xAxisLabel = "Day ${e.x.toInt()}"
                     val yAxisLabel = "${e.y} mmHg"
