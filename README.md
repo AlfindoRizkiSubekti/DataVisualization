@@ -1,19 +1,19 @@
 Mengintegrasikan grafik menggunakan MPAndroidChart ke dalam aplikasi.
 
-Integrasi MPAndroidChart:
+#Integrasi MPAndroidChart:
 Integrasikan MPAndroidChart library ke dalam proyek Android menggunakan dependensi yang sesuai.
 
-Inisialisasi Grafik:
+#Inisialisasi Grafik:
 Inisialisasikan objek line chart ke dalam sebuah aktivitas atau fragmen.
 
-Isi Data Grafik:
+#Isi Data Grafik:
 Tambahkan data ke dalam line chart. Gunakan contoh data blood pressure (systole & diastole) seorang pasien.
 
-Atur Warna dan Tampilan:
+#Atur Warna dan Tampilan:
 Sesuaikan warna dan tampilan grafik, termasuk warna garis, garis batas, dan judul grafik.
 
-Aktifkan Interaksi:
+#Aktifkan Interaksi:
 Aktifkan interaksi pengguna pada grafik, seperti zoom in/out dan sentuhan untuk menampilkan informasi detail.
 
-Kustomisasi Label Axis:
+#Kustomisasi Label Axis:
 Sesuaikan label pada sumbu X dan Y untuk memberikan informasi yang jelas dan informatif.
