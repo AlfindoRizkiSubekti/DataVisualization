@@ -17,3 +17,6 @@ Aktifkan interaksi pengguna pada grafik, seperti zoom in/out dan sentuhan untuk 
 
 #Kustomisasi Label Axis:
 Sesuaikan label pada sumbu X dan Y untuk memberikan informasi yang jelas dan informatif.
+
+![Uploading image.png…]()
+
